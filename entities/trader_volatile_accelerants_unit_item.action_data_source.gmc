@@ -1,0 +1,18 @@
+{
+    "action_values": [
+        {
+            "action_value_id": "volatile_accelerants_passive_angular_speed_bonus_value",
+            "action_value":
+            {
+                "values": [0.25]
+            }
+        },
+        {
+            "action_value_id": "volatile_accelerants_passive_linear_speed_bonus_value",
+            "action_value":
+            {
+                "values": [0.25]
+            }
+        }
+    ]
+}

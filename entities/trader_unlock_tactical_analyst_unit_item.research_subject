@@ -1,0 +1,19 @@
+{
+    "version": 0,
+    "domain": "military",
+    "tier": 1,
+    "field": "military_training",
+    "field_coord": [2, 4],
+    "research_time": 115.0,
+    "price":
+    {
+        "credits": 805.0,
+        "metal": 125.0,
+        "crystal": 200.0
+    },
+    "prerequisites": [
+        ["trader_capital_ship_starting_level_0"]
+    ],
+    "name": "trader_unlock_tactical_analyst_unit_item_research_subject_name",
+    "hud_icon": "trader_unlock_tactical_analyst_unit_item_research_subject_hud_icon"
+}

@@ -1,0 +1,37 @@
+{
+    "version": 0,
+    "make_dead_on_parent_buff_made_dead": true,
+    "make_dead_on_distance_to_parent_buff_exceeded":
+    {
+        "distance": "apply_buff_radius"
+    },
+    "stacking_limit": "fixed_one",
+    "stacking_ownership_type": "for_all_players",
+    "time_actions": [
+        {
+            "execution_interval_value": "fixed_one",
+            "action_group": {
+                "actions": [
+                    {
+                        "action_type": "use_unit_operators_on_single_unit",
+                        "destination_unit": {
+                            "unit_type": "current_spawner"
+                        },
+                        "operators": [
+                            {
+                                "operator_type": "restore_hull",
+                                "hull_restore_value": "combat_repair_system_remote_hull_restore_rate_value"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "gui":
+    {
+        "hud_icon": "trader_combat_repair_system_unit_item_hud_icon",
+        "name": "trader_combat_repair_system_unit_item_name",
+        "is_positive_buff": true
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "time_actions": [
+        {
+            "execution_interval_value": "fixed_one",
+            "execution_interval_count_value": "volatile_accelerants_duration_value",
+            "action_group": {
+                "actions": [
+                    {
+                        "action_type": "use_unit_operators_on_single_unit",
+                        "destination_unit": {
+                            "unit_type": "current_spawner"
+                        },
+                        "operators": [
+                            {
+                                "operator_type": "apply_damage",
+                                "damage_source": "ability",
+                                "damage_affect_type": "hull_only",
+                                "damage_value": "volatile_accelerants_damage_rate_value",
+                                "hull_armor_penetration_value": "uniforms_ability_armor_penetration_value"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

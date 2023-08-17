@@ -1,0 +1,30 @@
+{
+    "carrier": {
+        "base_max_squadron_capacity": 0,
+        "strikecraft_kinds": [
+            "interceptor",
+            "bomber"
+        ],
+        "strikecraft_formation": "capital_ship_strikecraft",
+        "hangar_points": [
+            {
+                "position": [
+                    -15.590454,
+                    23.425289,
+                    38.233402
+                ],
+                "rotation": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0.766044,
+                    -0.642788,
+                    0,
+                    0.642788,
+                    0.766044
+                ]
+            }
+        ]
+    }
+}

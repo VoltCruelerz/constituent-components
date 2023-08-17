@@ -1,0 +1,23 @@
+{
+    "passive_actions":
+    {
+        "persistant_buff": "trader_volatile_accelerants_unit_item_passive"
+    },
+    "gui":
+    {
+        "tooltip_lines": [
+            {
+                "label_text": "unit_modifier.max_linear_speed.passive",
+                "value_id": "volatile_accelerants_passive_linear_speed_bonus_value",
+                "value_float_format": "percentage",
+                "value_color": "positive"
+            },
+            {
+                "label_text": "unit_modifier.max_angular_speed.passive",
+                "value_id": "volatile_accelerants_passive_angular_speed_bonus_value",
+                "value_float_format": "percentage",
+                "value_color": "positive"
+            }
+        ]
+    }
+}

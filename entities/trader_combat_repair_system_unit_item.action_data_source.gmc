@@ -1,0 +1,45 @@
+{
+    "version": 0,
+    "target_filters": [
+        // Allies with weapons that don't have the source buff.
+        {
+            "target_filter_id": "combat_repair_system_target_filter",
+            "target_filter": {
+                "ownerships": [
+                    "friendly"
+                ],
+                "constraints": [
+                    {
+                        "constraint_type": "has_weapon",
+                        "weapon_type": "normal"
+                    },
+                    {
+                        "constraint_type": "composite_not",
+                        "constraint": {
+                            "constraint_type": "has_buff",
+                            "buff": "trader_combat_repair_system_unit_item_passive"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "action_values": [
+        {
+            "action_value_id": "apply_buff_radius",
+            "action_value": {
+                "values": [
+                    6500
+                ]
+            }
+        },
+        {
+            "action_value_id": "combat_repair_system_remote_hull_restore_rate_value",
+            "action_value": {
+                "values": [
+                    5
+                ]
+            }
+        }
+    ]
+}

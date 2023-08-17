@@ -1,0 +1,17 @@
+{
+    "version": 0,
+    "stacking_limit": "fixed_one",
+    "stacking_ownership_type": "for_all_players",
+    "unit_modifiers": [
+        {
+            "modifier_type": "max_linear_speed",
+            "value_behavior": "scalar",
+            "value_id": "volatile_accelerants_passive_linear_speed_bonus_value"
+        },
+        {
+            "modifier_type": "max_angular_speed",
+            "value_behavior": "scalar",
+            "value_id": "volatile_accelerants_passive_angular_speed_bonus_value"
+        }
+    ]
+}

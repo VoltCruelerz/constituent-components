@@ -1,0 +1,18 @@
+{
+    "version": 0,
+    "domain": "military",
+    "tier": 1,
+    "field": "military_training",
+    "field_coord": [2, 3],
+    "research_time": 115.0,
+    "price":
+    {
+        "credits": 805.0,
+        "metal": 125.0,
+        "crystal": 200.0
+    },
+    "name": "trader_capital_ship_starting_level_0_research_subject_name",
+    "description": "trader_capital_ship_starting_level_0_research_subject_description",
+    "hud_icon": "trader_capital_ship_starting_level_0_research_subject_hud_icon",
+    "tooltip_picture": "trader_capital_ship_starting_level_0_research_subject_tooltip_picture"
+}

@@ -1,0 +1,49 @@
+{
+    "version": 0,
+    "stacking_limit": "fixed_one",
+    "stacking_ownership_type": "for_all_players",
+    "time_actions": [
+        {
+            "execution_interval_value": "fixed_one",
+            "action_group": {
+                "actions": [
+                    // Apply passive regen to self
+                    {
+                        "action_type": "use_unit_operators_on_single_unit",
+                        "destination_unit": {
+                            "unit_type": "current_spawner"
+                        },
+                        "operators": [
+                            {
+                                "operator_type": "restore_hull",
+                                "hull_restore_value": "combat_repair_system_passive_hull_restore_rate_value"
+                            }
+                        ]
+                    },
+                    // Apply passive regen to AoE
+                    {
+                        "action_type": "use_unit_operators_on_units_in_radius_of_unit",
+                        "radius_origin_unit": {
+                            "unit_type": "current_spawner"
+                        },
+                        "include_radius_origin_unit": false,
+                        "radius_value": "apply_buff_radius",
+                        "operators": [
+                            {
+                                "constraint": {
+                                    "constraint_type": "unit_passes_target_filter",
+                                    "unit": {
+                                        "unit_type": "operand_destination"
+                                    },
+                                    "target_filter_id": "combat_repair_system_target_filter"
+                                },
+                                "operator_type": "apply_buff",
+                                "buff": "trader_combat_repair_system_item_on_target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
