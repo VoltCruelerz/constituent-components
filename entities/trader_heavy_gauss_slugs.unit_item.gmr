@@ -1,0 +1,37 @@
+{
+    "weapon_modifiers": [
+        {
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "values": [
+                0.25
+            ],
+            "tags": [
+                "gauss",
+                "rail_gun"
+            ]
+        },
+        {
+            "modifier_type": "hull_armor_penetration",
+            "value_behavior": "additive",
+            "values": [
+                30
+            ],
+            "tags": [
+                "gauss",
+                "rail_gun"
+            ]
+        },
+        {
+            "modifier_type": "range",
+            "value_behavior": "additive",
+            "values": [
+                5000
+            ],
+            "tags": [
+                "gauss",
+                "rail_gun"
+            ]
+        }
+    ]
+}
