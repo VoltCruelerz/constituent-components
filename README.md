@@ -6,6 +6,9 @@ Most of the components in Sins II are cool, but some leave something to be desir
 
 ### Existing Components
 
+- **Derelict Specialists**
+    - changed to Tier 1
+    - added unique icon
 - **Radiation Bomb**
     - installation: 90 => 30 seconds
     - cooldown: 180 => 60 seconds
