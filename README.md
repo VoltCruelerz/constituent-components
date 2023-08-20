@@ -30,7 +30,9 @@ Most of the components in Sins II are cool, but some leave something to be desir
 
 ### New Components
 
-- **Unbreachable Hull**: same effect as on Argonev
+- **Unbreachable Hull**
+    - _Unbreachable Hull_ research is a prerequisite
+    - +2000 hull, +0.4 HPS, +75 armor
 
 ### Other Changes
 
