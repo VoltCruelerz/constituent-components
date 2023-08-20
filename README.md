@@ -45,14 +45,8 @@ Most of the components in Sins II are cool, but some leave something to be desir
 
 ## Future Work
 
-- [ ] **Logistic Command**: increase productivity of mining while ship is in orbit
-- [ ] **Electronic Warfare**: enemy cooldowns increased while in range, enemy range reduced.
-- [ ] **Designated Target**: target takes additional damage
-- [ ] **Fragmentation Warheads**: missiles now deal 50% splash damage
-- [ ] **Martial Command**: planet regenerates loyalty while ship is in orbit
-- [ ] **Sabotage Crews**: greatly reduces counterdeployment rates
-- [ ] **Flak Countermeasures**:
-    - [ ] ? missiles fired by nearby friendly units have shields
-    - [ ] ? missiles move faster
-    - [ ] ? missiles have armor
-    - [ ] ? missiles dodge chance
+- **Logistic Command**: increase productivity of mining while ship is in orbit
+- **Martial Command**: planet regenerates loyalty (health) faster while ship is in orbit
+- **Electronic Warfare**: enemy range reduced
+- **Designated Target**: target takes additional damage
+- **Sabotage Crews**: greatly reduces counterdeployment rates
