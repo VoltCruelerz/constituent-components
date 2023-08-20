@@ -21,6 +21,8 @@ Most of the components in Sins II are cool, but some leave something to be desir
 - **Salvage Kit**
     - installation: 90 => 30 seconds
     - cooldown: 120 => 20 seconds
+    - scaling: now scales with combat repair droid research for 10/20/30 HPS
+    - targeting: can now apply to repair allied units as well
 - **Tactical Analyst**
     - research: reduced to tier 2 and has _Basic Crew Training_ as a prerequisite
 - **Volatile Accelerants**: passively grants +25% linear and angular speed

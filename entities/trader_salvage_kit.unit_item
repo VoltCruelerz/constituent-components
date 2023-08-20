@@ -4,6 +4,16 @@
     "hud_icon": "trader_salvage_kit_unit_item_hud_icon",
     "name": "trader_salvage_kit_unit_item_name",
     "description": "trader_salvage_kit_unit_item_description",
+    "item_level_count": 3,
+    "item_level_source": "research_prerequisites_per_level",
+    "item_level_prerequisites": [
+        [
+            ["trader_unlock_retrofit_bay_repair_ability"]
+        ],
+        [
+            ["trader_retrofit_bay_repair_rate_0"]
+        ]
+    ],
     "build_time": 30.0,
     "price":
     {

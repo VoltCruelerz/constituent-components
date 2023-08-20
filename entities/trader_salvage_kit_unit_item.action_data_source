@@ -1,33 +1,81 @@
 {
     "version": 0,
+    "level_count": 3,
     "action_values": [
-    {
-        "action_value_id": "cooldown_time",
-        "action_value":
         {
-            "values": [20.0]
-        }
-    },
-    {
-        "action_value_id": "hull_restore_amount_per_second",
-        "action_value":
+            "action_value_id": "cooldown_time",
+            "action_value": {
+                "values": [
+                    20,
+                    20,
+                    20
+                ]
+            }
+        },
         {
-            "values": [10.0]
-        }
-    },
-    {
-        "action_value_id": "hull_restore_duration",
-        "action_value":
+            "action_value_id": "range_value",
+            "action_value": {
+                "values": [
+                    4000,
+                    4000,
+                    4000
+                ]
+            }
+        },
         {
-            "values": [20.0]
+            "action_value_id": "hull_restore_amount_per_second",
+            "action_value": {
+                "values": [
+                    10,
+                    20,
+                    30
+                ]
+            }
+        },
+        {
+            "action_value_id": "hull_restore_duration",
+            "action_value": {
+                "values": [
+                    20,
+                    20,
+                    20
+                ]
+            }
         }
-    }],
+    ],
     "effect_alias_bindings": [
-        ["salvage_kit_effect",
+        [
+            "salvage_kit_effect",
+            {
+                "particle_effect": "trader_salvage_kit_unit_item_buff",
+                "sounds": [
+                    "trader_salvage_kit_unit_item_buff"
+                ]
+            }
+        ]
+    ],
+    "target_filters": [
         {
-            "particle_effect": "trader_salvage_kit_unit_item_buff",
-            "sounds": [
-            "trader_salvage_kit_unit_item_buff"]
-        }]
+            "target_filter_id": "salvage_kit_target_filter",
+            "target_filter": {
+                "unit_types": [
+                    "capital_ship",
+                    "corvette",
+                    "frigate",
+                    "starbase",
+                    "structure",
+                    "titan"
+                ],
+                "ownerships": [
+                    "friendly"
+                ],
+                "constraints": [
+                    {
+                        "constraint_type": "has_missing_hull",
+                        "amount_missing_threshold": 100.0
+                    }
+                ]
+            }
+        }
     ]
 }
