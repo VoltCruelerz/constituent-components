@@ -1,5 +1,7 @@
 # Constituent Components
 
+_This mod requires Greed 1.2.0 or higher._
+
 Most of the components in Sins II are cool, but some leave something to be desired.
 
 ## Changes
