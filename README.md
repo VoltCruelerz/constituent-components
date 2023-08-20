@@ -8,18 +8,19 @@ Most of the components in Sins II are cool, but some leave something to be desir
 
 ### Existing Components
 
+- **Antimatter Engine**
+    - autocast: now exists (triggers at <40% antimatter)
+- **Combat Repair System**: affects the fleet for 1/3 rate (5hps)
 - **Derelict Specialists**
     - changed to Tier 1
     - added unique icon
+- **Exotics Salvage Policy**
+    - installation: 120 => 30 seconds
+- **Heavy Gauss Slugs**: affects Rail Guns and improves range by 5000.
 - **Radiation Bomb**
     - installation: 90 => 30 seconds
     - cooldown: 180 => 60 seconds
 - **Reserve Hangar**: removed restriction on already having a squadron
-- **Combat Repair System**: affects the fleet for 1/3 rate (5hps)
-- **Exotics Salvage Policy**
-    - installation: 120 => 30 seconds
-- **Antimatter Engine**
-    - autocast: now exists (triggers at <40% antimatter)
 - **Salvage Kit**
     - installation: 90 => 30 seconds
     - cooldown: 120 => 20 seconds
@@ -28,7 +29,6 @@ Most of the components in Sins II are cool, but some leave something to be desir
 - **Tactical Analyst**
     - research: reduced to tier 2, with _Basic Crew Training_ as a prerequisite
 - **Volatile Accelerants**: passively grants +25% linear and angular speed
-- **Heavy Gauss Slugs**: affects Rail Guns and improves range by 5000.
 
 ### New Components
 
