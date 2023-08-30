@@ -6,9 +6,9 @@
             "action_value_id": "cooldown_time",
             "action_value": {
                 "values": [
-                    20,
-                    20,
-                    20
+                    120,
+                    120,
+                    120
                 ]
             }
         },
