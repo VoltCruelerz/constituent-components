@@ -5,7 +5,7 @@
     "description": "Improves the roster of ship components.",
     "version": "1.2.0",
     "sinsVersion": "1.15.1.0",
-    "greedVersion": "1.4.0",
+    "greedVersion": "1.5.0",
     "dependencies": [],
     "conflicts": [],
     "priority": 15

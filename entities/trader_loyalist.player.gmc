@@ -1,5 +1,7 @@
 {
     "ship_components": [
-        "trader_capital_ship_unbreachable_hull"
+        "trader_capital_ship_unbreachable_hull",
+        "trader_bullet_armor",
+        "trader_energy_armor"
     ]
 }

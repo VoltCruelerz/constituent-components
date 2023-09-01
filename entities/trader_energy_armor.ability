@@ -1,0 +1,30 @@
+{
+    "version": 0,
+    "action_data_source": "trader_energy_armor",
+    "level_source": "unit_item",
+    "passive_actions": {
+        "persistant_buff": "trader_energy_armor"
+    },
+    "gui": {
+        "tooltip_lines": [
+            {
+                "rendering_type": "buff_unit_modifier",
+                "unit_modifier_id": "armor_bonus_value"
+            },
+            {
+                "label_text": "trader_energy_armor_damage_reduction_label",
+                "value_id": "damage_prevented_value",
+                "value_float_format": "percentage",
+                "value_color": "positive"
+            },
+            {
+                "rendering_type": "buff_unit_modifier",
+                "unit_modifier_id": "slow_linear_value"
+            },
+            {
+                "rendering_type": "buff_unit_modifier",
+                "unit_modifier_id": "slow_angular_value"
+            }
+        ]
+    }
+}

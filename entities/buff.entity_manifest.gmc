@@ -3,6 +3,8 @@
         "trader_combat_repair_system_item_on_target",
         "trader_volatile_accelerants_unit_item_passive",
         "trader_heavy_gauss_slugs_on_self",
-        "trader_heavy_gauss_slugs_on_target"
+        "trader_heavy_gauss_slugs_on_target",
+        "trader_bullet_armor",
+        "trader_energy_armor"
     ]
 }

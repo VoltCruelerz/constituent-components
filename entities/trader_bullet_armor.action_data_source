@@ -1,0 +1,55 @@
+{
+    "version": 0,
+    "action_values": [
+        {
+            "action_value_id": "damage_prevented_value",
+            "action_value": {
+                "transform_type": "per_damage_dealt",
+                "values": [
+                    0.4
+                ]
+            }
+        },
+        {
+            "action_value_id": "armor_bonus_value",
+            "action_value": {
+                "values": [
+                    50
+                ]
+            }
+        },
+        {
+            "action_value_id": "slow_value",
+            "action_value":
+            {
+                "values": [-0.10]
+            }
+        }
+    ],
+    "buff_unit_modifiers": [
+        {
+            "buff_unit_modifier_id": "armor_bonus_value",
+            "buff_unit_modifier": {
+                "modifier_type": "hull_armor",
+                "value_behavior": "additive",
+                "value_id": "armor_bonus_value"
+            }
+        },
+        {
+            "buff_unit_modifier_id": "slow_linear_value",
+            "buff_unit_modifier": {
+                "modifier_type": "max_linear_speed",
+                "value_behavior": "scalar",
+                "value_id": "slow_value"
+            }
+        },
+        {
+            "buff_unit_modifier_id": "slow_angular_value",
+            "buff_unit_modifier": {
+                "modifier_type": "max_angular_speed",
+                "value_behavior": "scalar",
+                "value_id": "slow_value"
+            }
+        }
+    ]
+}

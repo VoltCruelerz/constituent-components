@@ -39,6 +39,50 @@
         [
             "trader_heavy_gauss_slugs_unit_item_on_target_name",
             "Armor Shatter"
+        ],
+        [
+            "trader_unlock_armor_specialization_name",
+            "Armor Specialization"
+        ],
+        [
+            "trader_unlock_armor_specialization_description",
+            "Unlocks several armor specializations to deal with specific types of hostile weaponry."
+        ],
+        [
+            "trader_armor_specialization_missile_name",
+            "Explosive Reactive Armor"
+        ],
+        [
+            "trader_armor_specialization_missile_description",
+            "Layers of explosive are layered within the armor. When attacked by a missile, the explosive detonates, disrupting the penetrator."
+        ],
+        [
+            "trader_armor_specialization_bullet_name",
+            "Hylon Fiber Armor"
+        ],
+        [
+            "trader_armor_specialization_bullet_description",
+            "High tensile strength fiber backing is added beneath other armor layers, reducing the likelihood of penetration by low-velocity projectiles."
+        ],
+        [
+            "trader_armor_specialization_energy_name",
+            "Ablative Ice Armor"
+        ],
+        [
+            "trader_armor_specialization_energy_description",
+            "The ship's armor is coated in a thick layer of ice that can dissipate the heat of energy weapons."
+        ],
+        [
+            "trader_bullet_armor_damage_reduction_label",
+            "Kinetic Hull Damage Prevented"
+        ],
+        [
+            "trader_energy_armor_damage_reduction_label",
+            "Energy Hull Damage Prevented"
+        ],
+        [
+            "trader_missile_armor_damage_reduction_label",
+            "Explosive Hull Damage Prevented"
         ]
     ]
 }

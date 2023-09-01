@@ -1,6 +1,6 @@
 # Constituent Components
 
-_This mod requires Greed 1.2.0 or higher._
+_This mod requires Greed 1.5.0 or higher._
 
 Most of the components in Sins II are cool, but some leave something to be desired.
 
@@ -24,6 +24,10 @@ Most of the components in Sins II are cool, but some leave something to be desir
     - scaling: now scales with combat repair droid research for 10/20/30 HPS
     - targeting: can now apply to repair allied units as well
 - **Volatile Accelerants**: passively grants +25% linear and angular speed
+- **Missile Armor**: replaced with specialized variants. All types slow by 10% and grant +50 armor.
+    - **Explosive Reactive Armor**: -40% missile and plasma damage
+    - **Hylon Fiber Armor**: -40% phase gun and autocannon damage
+    - **Ablative Ice Armor**: -20% beam and laser damage
 
 ### New Components
 

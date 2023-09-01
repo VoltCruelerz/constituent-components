@@ -1,0 +1,7 @@
+{
+    // Hijacking this to use for all armor types so we don't clutter the research UI.
+    // Besides, with the speed debuff, spamming them has problems.
+    "name": "trader_unlock_armor_specialization_name",
+    "description": "trader_unlock_armor_specialization_description",
+    "hud_icon": "trader_unlock_armor_specialization_unit_item_hud_icon"
+}
