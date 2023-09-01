@@ -7,31 +7,9 @@
                 0.25
             ],
             "tags": [
-                "gauss",
-                "rail_gun"
-            ]
-        },
-        {
-            "modifier_type": "hull_armor_penetration",
-            "value_behavior": "additive",
-            "values": [
-                30
-            ],
-            "tags": [
-                "gauss",
-                "rail_gun"
-            ]
-        },
-        {
-            "modifier_type": "range",
-            "value_behavior": "additive",
-            "values": [
-                5000
-            ],
-            "tags": [
-                "gauss",
-                "rail_gun"
+                "gauss"
             ]
         }
-    ]
+    ],
+    "ability": "trader_heavy_gauss_slugs"
 }

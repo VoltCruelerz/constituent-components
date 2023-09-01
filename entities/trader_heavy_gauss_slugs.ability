@@ -1,0 +1,25 @@
+{
+    "version": 0,
+    "action_data_source": "trader_heavy_gauss_slugs",
+    "passive_actions": {
+        "persistant_buff": "trader_heavy_gauss_slugs_on_self"
+    },
+    "level_source": "unit_item",
+    "gui": {
+        "hud_icon": "trader_heavy_gauss_slugs_unit_item_hud_icon",
+        "name": "trader_heavy_gauss_slugs_unit_item_name",
+        "description": "trader_heavy_gauss_slugs_unit_item_description",
+        "tooltip_lines": [
+            {
+                "label_text": "trader_heavy_gauss_slugs_unit_item_on_target_name",
+                "value_id": "armor_reduction",
+                "value_float_format": "percentage_with_sign"
+            },
+            {
+                "label_text": "tooltip.ability.duration",
+                "value_id": "duration_value",
+                "value_suffix": "seconds"
+            }
+        ]
+    }
+}

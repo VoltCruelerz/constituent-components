@@ -1,0 +1,36 @@
+{
+    "active_actions": {
+        "cooldown_time": "cooldown_time",
+        "actions": {
+            "actions": [
+                {
+                    "action_type": "use_unit_operators_on_single_unit",
+                    "destination_unit": {
+                        "unit_type": "target"
+                    },
+                    "operators": [
+                        {
+                            "operator_type": "apply_buff",
+                            "buff": "trader_salvage_kit_unit_item"
+                        }
+                    ]
+                }
+            ]
+        },
+        "targeting_type": "unit_targeted",
+        "target_filters": [
+            "salvage_kit_target_filter"
+        ],
+        "range": "range_value",
+        "auto_cast": {
+            "target_definitions": [
+                {
+                    "target_filter": "salvage_kit_target_filter"
+                }
+            ]
+        }
+    },
+    "gui": {
+        "range": "range_value"
+    }
+}

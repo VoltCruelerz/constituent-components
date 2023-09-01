@@ -33,16 +33,12 @@
             "Potent fuel additives boost the speed of this vessel, and in times of stress, they can be applied to the wider fleet, but their unstable nature causes damage over the duration."
         ],
         [
-            "trader_unlock_heavy_gauss_slugs_unit_item_research_subject_name",
-            "Plematite Slugs Prototype"
-        ],
-        [
-            "trader_heavy_gauss_slugs_unit_item_name",
-            "Plematite Slugs"
-        ],
-        [
             "trader_heavy_gauss_slugs_unit_item_description",
-            "Metallurgical advances with plematite grant eletromagnetically-accelerated shells increased damage, range, and penetration."
+            "Metallurgical advances yield gauss shells that strike with such force they shatter armor on impact."
+        ],
+        [
+            "trader_heavy_gauss_slugs_unit_item_on_target_name",
+            "Armor Shatter"
         ]
     ]
 }

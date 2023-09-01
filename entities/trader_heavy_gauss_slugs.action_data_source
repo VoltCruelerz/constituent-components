@@ -1,0 +1,19 @@
+{
+    "version": 0,
+    "action_values": [
+        {
+            "action_value_id": "duration_value",
+            "action_value":
+            {
+                "values": [30]
+            }
+        },
+        {
+            "action_value_id": "armor_reduction",
+            "action_value":
+            {
+                "values": [-0.15]
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "version": 0,
+    "stacking_limit": "fixed_one",
+    "stacking_ownership_type": "for_all_players",
+    "stacking_limit_met_behavior": "keep_existing_buff",
+    "trigger_event_actions": [
+        {
+            "trigger_event_type": "on_unit_damaged_by_current_spawner",
+            "action_group": {
+                "constraint": {
+                    "constraint_type": "composite_and",
+                    "constraints": [
+                        {
+                            "constraint_type": "damage_has_damage_source",
+                            "damage_source": "weapon"
+                        },
+                        {
+                            "constraint_type": "weapon_has_weapon_tag",
+                            "weapon": "trigger_event_weapon",
+                            "any_weapon_tags": [
+                                "gauss"
+                            ]
+                        }
+                    ]
+                },
+                "actions": [
+                    {
+                        "action_type": "use_unit_operators_on_single_unit",
+                        "destination_unit": {
+                            "unit_type": "trigger_event_destination"
+                        },
+                        "operators": [
+                            {
+                                "operator_type": "apply_buff",
+                                "buff": "trader_heavy_gauss_slugs_on_target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
