@@ -10,7 +10,9 @@ Most of the components in Sins II are cool, but some leave something to be desir
 
 - **Antimatter Engine**
     - autocast: now exists (triggers at <40% antimatter)
-- **Combat Repair System**: affects the fleet for 1/3 rate (5hps)
+- **Combat Repair System**
+    - autocast: now exists (triggers at 300hp missing)
+    - healing: affects the fleet for 1/3 rate (5hps)
 - **Derelict Specialists**
     - changed to Tier 1
     - added unique icon
