@@ -3,9 +3,9 @@
     "author": "Volt Cruelerz",
     "url": "https://github.com/VoltCruelerz/constituent-components",
     "description": "Improves the roster of ship components.",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "sinsVersion": "1.15.1.0",
-    "greedVersion": "1.6.0",
+    "greedVersion": "1.8.1",
     "dependencies": [],
     "conflicts": []
 }

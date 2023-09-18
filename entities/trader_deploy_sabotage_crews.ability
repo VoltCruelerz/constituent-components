@@ -1,0 +1,53 @@
+{
+    "version": 0,
+    "action_data_source": "trader_deploy_sabotage_crews",
+    "level_source": "unit_item",
+    "active_actions": {
+        "cooldown_time": "deploy_sabotage_crews_cooldown_time_value",
+        "antimatter_cost": "deploy_sabotage_crews_antimatter_cost_value",
+        "actions": {
+            "actions": [
+                {
+                    "action_type": "use_unit_operators_on_single_unit",
+                    "destination_unit": {
+                        "unit_type": "current_spawner"
+                    },
+                    "operators": [
+                        {
+                            "operator_type": "apply_buff",
+                            "buff": "trader_deploy_sabotage_crews_on_self"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "gui": {
+        "hud_icon": "trader_deploy_sabotage_crews_hud_icon",
+        "name": "trader_deploy_sabotage_crews_name",
+        "description": "trader_deploy_sabotage_crews_description",
+        "tooltip_lines": [
+            {
+                "label_text": "planet_modifier.factory_unit_build_time",
+                "value_id": "deploy_sabotage_crews_ship_build_time_bonus_value",
+                "value_float_format": "percentage_with_sign",
+                "value_color": "negative"
+            },
+            {
+                "label_text": "planet_modifier.structure_build_time",
+                "value_id": "deploy_sabotage_crews_structure_build_time_bonus_value",
+                "value_float_format": "percentage_with_sign",
+                "value_color": "negative"
+            },
+            {
+                "label_text": "tooltip.ability.duration",
+                "value_id": "deploy_sabotage_crews_duration_value",
+                "value_suffix": "seconds"
+            },
+            {
+                "label_text": "tooltip.ability.factory_damage",
+                "value_id": "deploy_sabotage_crews_sabotage_damage_value"
+            }
+        ]
+    }
+}

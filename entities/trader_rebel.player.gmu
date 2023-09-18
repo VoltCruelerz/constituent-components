@@ -1,0 +1,16 @@
+{
+    "ship_components": [
+        "trader_capital_ship_unbreachable_hull",
+        "trader_bullet_armor",
+        "trader_energy_armor",
+        "trader_deploy_sabotage_crews"
+    ],
+    "research": {
+        "research_subjects": [
+            "trader_unlock_deploy_sabotage_crews"
+        ],
+        "faction_research_subjects": [
+            "trader_unlock_deploy_sabotage_crews"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "version": 0,
+    "domain": "military",
+    "tier": 4,
+    "field": "military_training",
+    "field_coord": [
+        8,
+        1
+    ],
+    "research_time": 280.0,
+    "price":
+    {
+        "credits": 2950.0,
+        "metal": 495.0,
+        "crystal": 835.0
+    },
+    "prerequisites": [
+        [
+            "trader_unlock_culture_unit_factory_production_penalty"
+        ]
+    ],
+    "name": "trader_unlock_deploy_sabotage_crews_research_subject_name",
+    "description": "trader_unlock_deploy_sabotage_crews_research_subject_description",
+    "hud_icon": "trader_deploy_sabotage_crews_hud_icon",
+    "tooltip_picture": "trader_deploy_sabotage_crews_tooltip_picture"
+}

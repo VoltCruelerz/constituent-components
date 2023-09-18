@@ -1,0 +1,34 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "tooltip_icon": "trader_deploy_sabotage_crews_hud_icon",
+    "hud_icon": "trader_deploy_sabotage_crews_hud_icon",
+    "name": "trader_deploy_sabotage_crews_name",
+    "description": "trader_deploy_sabotage_crews_description",
+    "build_time": 120.0,
+    "price":
+    {
+        "credits": 2000.0,
+        "metal": 585.0,
+        "crystal": 415.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 1
+        },
+        {
+            "exotic_type": "utility",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "capital_ship",
+        "titan"
+    ],
+    "build_prerequisites": [
+        ["trader_unlock_deploy_sabotage_crews"]
+    ],
+    "build_group_id": "offense",
+    "ability": "trader_deploy_sabotage_crews"
+}

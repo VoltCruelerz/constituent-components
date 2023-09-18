@@ -1,0 +1,100 @@
+{
+    "version": 0,
+    "level_count": 1,
+    "target_filters": [
+        {
+            "target_filter_id": "deploy_sabotage_crews_factory_target_filter",
+            "target_filter": {
+                "unit_types": [
+                    "capital_ship",
+                    "starbase",
+                    "structure"
+                ],
+                "ownerships": [
+                    "enemy"
+                ],
+                "constraints": [
+                    {
+                        "constraint_type": "not_self"
+                    },
+                    {
+                        "constraint_type": "is_unit_factory",
+                        "must_be_functional": true
+                    }
+                ]
+            }
+        },
+        {
+            "target_filter_id": "deploy_sabotage_crews_planet_target_filter",
+            "target_filter": {
+                "unit_types": [
+                    "planet"
+                ],
+                "ownerships": [
+                    "enemy"
+                ]
+            }
+        },
+        {
+            "target_filter_id": "deploy_sabotage_crews_starbase_target_filter",
+            "target_filter": {
+                "unit_types": [
+                    "starbase"
+                ],
+                "ownerships": [
+                    "enemy"
+                ]
+            }
+        }
+    ],
+    "action_values": [
+        {
+            "action_value_id": "deploy_sabotage_crews_antimatter_cost_value",
+            "action_value": {
+                "values": [
+                    50
+                ]
+            }
+        },
+        {
+            "action_value_id": "deploy_sabotage_crews_cooldown_time_value",
+            "action_value": {
+                "values": [
+                    180
+                ]
+            }
+        },
+        {
+            "action_value_id": "deploy_sabotage_crews_duration_value",
+            "action_value": {
+                "values": [
+                    90
+                ]
+            }
+        },
+        {
+            "action_value_id": "deploy_sabotage_crews_ship_build_time_bonus_value",
+            "action_value": {
+                "values": [
+                    -0.45
+                ]
+            }
+        },
+        {
+            "action_value_id": "deploy_sabotage_crews_structure_build_time_bonus_value",
+            "action_value": {
+                "values": [
+                    -0.45
+                ]
+            }
+        },
+        {
+            "action_value_id": "deploy_sabotage_crews_sabotage_damage_value",
+            "action_value": {
+                "values": [
+                    2000
+                ]
+            }
+        }
+    ]
+}

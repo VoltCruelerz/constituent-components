@@ -1,0 +1,13 @@
+{
+    "version": 0,
+    "make_dead_on_parent_buff_made_dead": true,
+    "stacking_limit": "fixed_one",
+    "stacking_ownership_type": "for_all_players",
+    "stacking_limit_met_behavior": "replace_existing_buff",
+    "planet_modifiers": [
+    {
+        "modifier_type": "structure_build_time",
+        "value_behavior": "scalar",
+        "value_id": "deploy_sabotage_crews_structure_build_time_bonus_value"
+    }]
+}

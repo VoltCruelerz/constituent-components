@@ -36,6 +36,9 @@ Most of the components in Sins II are cool, but some leave something to be desir
 - **Unbreachable Hull**
     - _Unbreachable Hull_ research is a prerequisite
     - +2000 hull, +0.4 HPS, +75 armor
+- **Sabotage Crews**: greatly reduces counterdeployment rates
+    - A late-game offensive unit for TEC Rebels, when used, it deals damage to enemy factories in the gravity well and slows production to a crawl.
+    - 2000 damage, -45% build speed
 
 ### Other Changes
 
@@ -50,10 +53,12 @@ Most of the components in Sins II are cool, but some leave something to be desir
 
 ## Future Work
 
-- **Logistic Command**: increase productivity of factories while ship is in orbit
-    - see `"factory_unit_build_price"`, `"factory_unit_build_time"`, `"factory_exotic_build_time"`
+- **Supplemental Construction**: spawns another construction frigate that lasts for 10ish minutes
+    - see `"structure_builder_count"`
 - **Mining Command**: increase productivity of mining while ship is in orbit
-    - see `"orbital_extraction_metal_income_rate"`, `"orbital_extraction_crystal_income_rate"`
+    - see `"orbital_extraction_metal_income_rate"`, `"orbital_extraction_crystal_income_rate"`, `"on_current_spawner_current_gravity_well_changed"`
+- **Logistic Command**: increase productivity of factories while ship is in orbit
+    - see `"factory_unit_build_price"`, `"factory_unit_build_time"`, `"factory_exotic_build_time"`, `"on_current_spawner_current_gravity_well_changed"`
 - **Martial Command**: planet regenerates loyalty (health) faster while ship is in orbit and strongly rejects hostile culture
     - see `"culture_resistance_rate"` and `"health_points_restore_rate"`
 - **Excavation Team**: greatly reduces the time and cost of excavation
@@ -61,10 +66,6 @@ Most of the components in Sins II are cool, but some leave something to be desir
 - **Electronic Warfare**: enemy range reduced
 - **Designated Target**: target takes additional damage
     - see Adaptive Force field, `"damage_taken"`
-- **Sabotage Crews**: greatly reduces counterdeployment rates
-    - see `"factory_unit_build_price"` and `"factory_unit_build_time"`
-- **Supplemental Construction**: spawns another construction frigate that lasts for 10ish minutes
-    - see `"structure_builder_count"`
 - **Titan's Fervor**: Ankylon component that increases local garrison supply
 - **Research Laboratory**: The ship counts as lab
     - see `"civilian_research_points"`, `"military_research_points"`, and `"research_time"`
@@ -72,12 +73,15 @@ Most of the components in Sins II are cool, but some leave something to be desir
     - see Argonev deployment
 - **Networked Jump Computer**: greatly reduces the jump time of nearby allies, as well as jump speed
     - see `"hyperspace_charge_time"` and `"hyperspace_speed"`
+    - would this be better for Vasari?
 - **Networked Airwing Command**: boosts flight speed of all strikecraft in gravity well
     - see Volatile Accelerants
 - **Settlement Team**: ship gains colonize ability
-- **Atmospheric Shielding**: strikecraft can bomb planets
-- **Wide Frequency Jammer**: mass disable for everyone on the map
+    - is this actually needed? Colony frigates are cheap.
+    - maybe do something with diplomacy like envoys?
+- **Atmospheric Shielding**: own strikecraft can bomb planets
 - **Parley**: Pay off pirates to reduce bounty
+- **Wide Frequency Jammer**: mass disable for everyone on the map
 - **Privateers**: Hire some pirates
 
 ### Tradeoffs

@@ -1,0 +1,46 @@
+{
+    "version": 0,
+    "make_dead_on_parent_buff_made_dead": true,
+    "stacking_limit": "fixed_one",
+    "stacking_ownership_type": "for_all_players",
+    "stacking_limit_met_behavior": "replace_existing_buff",
+    "trigger_event_actions": [
+        {
+            "trigger_event_type": "on_buff_started",
+            "action_group": {
+                "actions": [
+                    {
+                        "action_type": "use_unit_operators_on_single_unit",
+                        "destination_unit":
+                        {
+                            "unit_type": "current_spawner"
+                        },
+                        "operators": [
+                            {
+                                "operator_type": "apply_damage",
+                                "damage_source": "ability",
+                                "damage_affect_type": "hull_and_shields",
+                                "damage_value": "deploy_sabotage_crews_sabotage_damage_value",
+                                "hull_armor_penetration_value": "fixed_zero"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "unit_modifiers": [
+        {
+            "modifier_type": "self_build_time",
+            "value_behavior": "scalar",
+            "value_id": "deploy_sabotage_crews_ship_build_time_bonus_value"
+        }
+    ],
+    "unit_factory_modifiers": [
+        {
+            "modifier_type": "build_time",
+            "value_behavior": "scalar",
+            "value_id": "deploy_sabotage_crews_ship_build_time_bonus_value"
+        }
+    ]
+}

@@ -83,6 +83,26 @@
         [
             "trader_missile_armor_damage_reduction_label",
             "Explosive Hull Damage Prevented"
+        ],
+        [
+            "trader_deploy_sabotage_crews_name",
+            "Deploy Sabotage Crew"
+        ],
+        [
+            "trader_deploy_sabotage_crews_description",
+            "Deploys commando teams armed with antimatter bombs to thwart enemy production in the gravity well."
+        ],
+        [
+            "trader_unlock_deploy_sabotage_crews_research_subject_name",
+            "Sabotage Crew Training"
+        ],
+        [
+            "trader_unlock_deploy_sabotage_crews_research_subject_description",
+            "Initiates a training program to produce fanatical commandos willing to deploy deep into enemy territory to cripple production within the gravity well by setting off antimatter bombs."
+        ],
+        [
+            "tooltip.ability.factory_damage",
+            "Factory Damage:"
         ]
     ]
 }
