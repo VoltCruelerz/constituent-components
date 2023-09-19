@@ -103,6 +103,22 @@
         [
             "tooltip.ability.factory_damage",
             "Factory Damage:"
+        ],
+        [
+            "trader_titans_fervor_name",
+            "Titan's Fervor"
+        ],
+        [
+            "trader_titans_fervor_description",
+            "The presence of the Ankylon in orbit inspires the populace to enlist in the local militia."
+        ],
+        [
+            "trader_unlock_titans_fervor_name",
+            "Unlock Titan's Fervor"
+        ],
+        [
+            "trader_unlock_titans_fervor_description",
+            "Space for media and propaganda teams are added to the Ankylon, allowing its presence to inspire the local populace to enlist in the local garrison."
         ]
     ]
 }

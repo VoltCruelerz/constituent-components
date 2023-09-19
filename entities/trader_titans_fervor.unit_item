@@ -1,0 +1,34 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "tooltip_icon": "trader_titans_fervor_hud_icon",
+    "hud_icon": "trader_titans_fervor_hud_icon",
+    "name": "trader_titans_fervor_name",
+    "description": "trader_titans_fervor_description",
+    "build_time": 120.0,
+    "price":
+    {
+        "credits": 2000.0,
+        "metal": 585.0,
+        "crystal": 415.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 1
+        },
+        {
+            "exotic_type": "defense",
+            "count": 1
+        }
+    ],
+    "max_count_on_unit": 1,
+    "required_unit_tags": [
+        "titan"
+    ],
+    "build_prerequisites": [
+        ["trader_unlock_titans_fervor"]
+    ],
+    "build_group_id": "defense",
+    "ability": "trader_titans_fervor"
+}

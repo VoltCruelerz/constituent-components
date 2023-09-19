@@ -2,6 +2,15 @@
     "ship_components": [
         "trader_capital_ship_unbreachable_hull",
         "trader_bullet_armor",
-        "trader_energy_armor"
-    ]
+        "trader_energy_armor",
+        "trader_titans_fervor"
+    ],
+    "research": {
+        "research_subjects": [
+            "trader_unlock_titans_fervor"
+        ],
+        "faction_research_subjects": [
+            "trader_unlock_titans_fervor"
+        ]
+    }
 }

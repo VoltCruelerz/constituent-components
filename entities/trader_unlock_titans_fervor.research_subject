@@ -1,0 +1,26 @@
+{
+    "version": 0,
+    "domain": "military",
+    "tier": 4,
+    "field": "military_training",
+    "field_coord": [
+        8,
+        1
+    ],
+    "research_time": 280.0,
+    "price":
+    {
+        "credits": 2950.0,
+        "metal": 495.0,
+        "crystal": 835.0
+    },
+    "prerequisites": [
+        [
+            "trader_loyalist_garrison_max_supply"
+        ]
+    ],
+    "name": "trader_unlock_titans_fervor_name",
+    "description": "trader_unlock_titans_fervor_description",
+    "hud_icon": "trader_titans_fervor_hud_icon",
+    "tooltip_picture": "trader_titans_fervor_tooltip_picture"
+}

@@ -36,20 +36,15 @@ Most of the components in Sins II are cool, but some leave something to be desir
 - **Unbreachable Hull**
     - _Unbreachable Hull_ research is a prerequisite
     - +2000 hull, +0.4 HPS, +75 armor
-- **Sabotage Crews**: greatly reduces counterdeployment rates
-    - A late-game offensive unit for TEC Rebels, when used, it deals damage to enemy factories in the gravity well and slows production to a crawl.
+- **Sabotage Crews (Rebels)**
+    - A lategame offensive unit for TEC Rebels, when used, it deals damage to enemy factories in the gravity well and slows production to a crawl.
     - 2000 damage, -45% build speed
+- **Titan's Fervor (Loyalist)**
+    - A lategame Ankylon component that grants any planet it orbits 50 garrison supply for as long as it remains there.
 
 ### Other Changes
 
 - **Archaeology Center Prototype**: clarified text. Did _you_ know it gives you a cache of resources every 8 min? I sure didn't.
-
-## Installation
-
-**NOTE:** This mod requires [Greed](https://github.com/VoltCruelerz/Greed).
-
-1. Download the latest release from [here](https://github.com/VoltCruelerz/constituent-components/releases)
-2. Extract the zipped contents to `C:\Users\YOUR_USER\AppData\Local\sins2\mods\`, so that this file's path is `C:\Users\YOUR_USER\AppData\Local\sins2\mods\constituent-components\README.md`
 
 ## Future Work
 

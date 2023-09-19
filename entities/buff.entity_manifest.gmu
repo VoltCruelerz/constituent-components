@@ -9,6 +9,8 @@
         "trader_deploy_sabotage_crews_on_factories",
         "trader_deploy_sabotage_crews_on_planet",
         "trader_deploy_sabotage_crews_on_self",
-        "trader_deploy_sabotage_crews_on_starbase"
+        "trader_deploy_sabotage_crews_on_starbase",
+        "trader_titans_fervor_on_self",
+        "trader_titans_fervor_on_planet"
     ]
 }

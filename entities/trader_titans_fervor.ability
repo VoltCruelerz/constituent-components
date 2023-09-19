@@ -1,0 +1,21 @@
+{
+    "version": 0,
+    "action_data_source": "trader_titans_fervor",
+    "level_source": "unit_item",
+    "passive_actions":
+    {
+        "persistant_buff": "trader_titans_fervor_on_self"
+    },
+    "gui": {
+        "hud_icon": "trader_titans_fervor_hud_icon",
+        "name": "trader_titans_fervor_name",
+        "description": "trader_titans_fervor_description",
+        "tooltip_lines": [
+            {
+                "label_text": "planet_modifier.max_garrison_supply",
+                "value_id": "garrison_supply",
+                "value_color": "positive"
+            }
+        ]
+    }
+}

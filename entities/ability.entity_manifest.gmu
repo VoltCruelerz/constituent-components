@@ -3,6 +3,7 @@
         "trader_heavy_gauss_slugs",
         "trader_bullet_armor",
         "trader_energy_armor",
-        "trader_deploy_sabotage_crews"
+        "trader_deploy_sabotage_crews",
+        "trader_titans_fervor"
     ]
 }

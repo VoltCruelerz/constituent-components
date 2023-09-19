@@ -1,0 +1,42 @@
+{
+    "version": 0,
+    "make_dead_on_parent_buff_made_dead": true,
+    "stacking_limit": "fixed_one",
+    "stacking_ownership_type": "for_all_players",
+    "planet_modifiers": [
+        {
+            "modifier_type": "max_garrison_supply",
+            "value_behavior": "additive",
+            "value_id": "garrison_supply"
+        }
+    ],
+    "trigger_event_actions": [
+        {
+            "trigger_event_type": "on_current_spawner_player_ownership_changed",
+            "action_group": {
+                "actions": [
+                    {
+                        "action_type": "make_buff_dead"
+                    }
+                ]
+            }
+        }
+    ],
+    "gui": {
+        "hud_icon": "trader_titans_fervor_hud_icon",
+        "name": "trader_titans_fervor_name",
+        "description": "trader_titans_fervor_description",
+        "is_positive_buff": true,
+        "tooltip_line_groups": [
+            {
+                "lines": [
+                    {
+                        "label_text": "planet_modifier.max_garrison_supply",
+                        "value_id": "garrison_supply",
+                        "value_color": "positive"
+                    }
+                ]
+            }
+        ]
+    }
+}

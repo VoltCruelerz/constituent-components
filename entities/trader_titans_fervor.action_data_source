@@ -1,0 +1,27 @@
+{
+    "version": 0,
+    "level_count": 1,
+    "target_filters": [
+        {
+            "target_filter_id": "titans_fervor_target_filter",
+            "target_filter": {
+                "unit_types": [
+                    "planet"
+                ],
+                "ownerships": [
+                    "self"
+                ]
+            }
+        }
+    ],
+    "action_values": [
+        {
+            "action_value_id": "garrison_supply",
+            "action_value": {
+                "values": [
+                    50
+                ]
+            }
+        }
+    ]
+}

@@ -3,6 +3,7 @@
         "trader_capital_ship_unbreachable_hull",
         "trader_bullet_armor",
         "trader_energy_armor",
-        "trader_deploy_sabotage_crews"
+        "trader_deploy_sabotage_crews",
+        "trader_titans_fervor"
     ]
 }
