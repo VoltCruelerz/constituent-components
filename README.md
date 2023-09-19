@@ -61,7 +61,6 @@ Most of the components in Sins II are cool, but some leave something to be desir
 - **Electronic Warfare**: enemy range reduced
 - **Designated Target**: target takes additional damage
     - see Adaptive Force field, `"damage_taken"`
-- **Titan's Fervor**: Ankylon component that increases local garrison supply
 - **Research Laboratory**: The ship counts as lab
     - see `"civilian_research_points"`, `"military_research_points"`, and `"research_time"`
 - **Forward Deployment**: quickly set up ??? in remote gravity wells
