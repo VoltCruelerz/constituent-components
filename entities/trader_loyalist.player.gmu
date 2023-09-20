@@ -3,7 +3,8 @@
         "trader_capital_ship_unbreachable_hull",
         "trader_bullet_armor",
         "trader_energy_armor",
-        "trader_titans_fervor"
+        "trader_titans_fervor",
+        "trader_extra_constructor"
     ],
     "research": {
         "research_subjects": [

@@ -20,9 +20,10 @@
         },
         {
             "action_value_id": "slow_value",
-            "action_value":
-            {
-                "values": [-0.10]
+            "action_value": {
+                "values": [
+                    -0.1
+                ]
             }
         }
     ],

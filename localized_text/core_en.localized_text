@@ -119,6 +119,18 @@
         [
             "trader_unlock_titans_fervor_description",
             "Space for media and propaganda teams are added to the Ankylon, allowing its presence to inspire the local populace to enlist in the local garrison."
+        ],
+        [
+            "planet_modifier.constructor_count",
+            "Constructors: "
+        ],
+        [
+            "trader_extra_constructor_name",
+            "Deploy Constructor"
+        ],
+        [
+            "trader_extra_constructor_description",
+            "Deploys a supplemental LEV construction frigate to the gravity well for a limited duration that operates under manual control."
         ]
     ]
 }

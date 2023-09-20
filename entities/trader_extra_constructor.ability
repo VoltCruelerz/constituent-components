@@ -1,0 +1,58 @@
+{
+    "version": 0,
+    "action_data_source": "trader_extra_constructor",
+    "level_source": "unit_item",
+    "active_actions": {
+        "cooldown_time": "trader_extra_constructor_cooldown_value",
+        "antimatter_cost": "trader_extra_constructor_antimatter_cost_value",
+        "actions": {
+            "actions": [
+                {
+                    "action_type": "use_position_operators_on_single_position",
+                    "position": {
+                        "position_type": "target_position"
+                    },
+                    "position_operators": [
+                        {
+                            "operator_type": "create_unit",
+                            "unit_to_create": "trader_constructor_ship",
+                            "unit_forward": {
+                                "direction_type": "unit_forward",
+                                "unit": {
+                                    "unit_type": "current_spawner"
+                                }
+                            },
+                            "buff_on_created_unit": "trader_extra_constructor_on_constructor"
+                        }
+                    ]
+                }
+            ]
+        },
+        "targeting_type": "position_targeted",
+        "range": "trader_extra_constructor_range_value",
+        "spawned_unit_for_queries": "trader_constructor_ship",
+        "use_build_radius_as_targeting_radius": false,
+        "move_alignment": {
+            "type": "yaw",
+            "angle": 0,
+            "allow_opposite_angle": false
+        },
+        "firing_angle": 180
+    },
+    "gui": {
+        "hud_icon": "trader_extra_constructor_hud_icon",
+        "name": "trader_extra_constructor_name",
+        "description": "trader_extra_constructor_description",
+        "tooltip_line_groups": [
+            {
+                "lines": [
+                    {
+                        "label_text": "tooltip.ability.duration",
+                        "value_id": "trader_extra_constructor_duration_value",
+                        "value_suffix": "seconds"
+                    }
+                ]
+            }
+        ]
+    }
+}

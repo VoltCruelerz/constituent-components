@@ -10,18 +10,15 @@
             "action_group": {
                 "actions": [
                     {
+                        // Apply a buff to self that will deal damage and host the animation.
                         "action_type": "use_unit_operators_on_single_unit",
-                        "destination_unit":
-                        {
+                        "destination_unit": {
                             "unit_type": "current_spawner"
                         },
                         "operators": [
                             {
-                                "operator_type": "apply_damage",
-                                "damage_source": "ability",
-                                "damage_affect_type": "hull_and_shields",
-                                "damage_value": "deploy_sabotage_crews_sabotage_damage_value",
-                                "hull_armor_penetration_value": "fixed_zero"
+                                "operator_type": "apply_buff",
+                                "buff": "trader_deploy_sabotage_crews_on_factories_damage"
                             }
                         ]
                     }

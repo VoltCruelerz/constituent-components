@@ -41,6 +41,8 @@ Most of the components in Sins II are cool, but some leave something to be desir
     - 2000 damage, -45% build speed
 - **Titan's Fervor (Loyalist)**
     - A lategame Ankylon component that grants any planet it orbits 50 garrison supply for as long as it remains there.
+- **Deploy Constructor**
+    - Game-start component that deploys a limited-lifetime constructor fully under manual control. The planet will not auto-schedule its jobs.
 
 ### Other Changes
 

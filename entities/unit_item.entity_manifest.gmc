@@ -4,6 +4,7 @@
         "trader_bullet_armor",
         "trader_energy_armor",
         "trader_deploy_sabotage_crews",
-        "trader_titans_fervor"
+        "trader_titans_fervor",
+        "trader_extra_constructor"
     ]
 }

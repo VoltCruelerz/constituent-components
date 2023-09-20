@@ -1,0 +1,51 @@
+{
+    "version": 0,
+    "level_count": 1,
+    "target_filters": [
+        {
+            "target_filter_id": "trader_extra_constructor_target_filter",
+            "target_filter": {
+                "unit_types": [
+                    "planet"
+                ],
+                "ownerships": [
+                    "friendly"
+                ]
+            }
+        }
+    ],
+    "action_values": [
+        {
+            "action_value_id": "trader_extra_constructor_antimatter_cost_value",
+            "action_value": {
+                "values": [
+                    60
+                ]
+            }
+        },
+        {
+            "action_value_id": "trader_extra_constructor_cooldown_value",
+            "action_value": {
+                "values": [
+                    120
+                ]
+            }
+        },
+        {
+            "action_value_id": "trader_extra_constructor_duration_value",
+            "action_value": {
+                "values": [
+                    600
+                ]
+            }
+        },
+        {
+            "action_value_id": "trader_extra_constructor_range_value",
+            "action_value": {
+                "values": [
+                    3000
+                ]
+            }
+        }
+    ]
+}

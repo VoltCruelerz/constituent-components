@@ -1,0 +1,12 @@
+{
+    "version": 0,
+    "make_owner_dead_on_buff_made_dead": true,
+    "active_duration": "trader_extra_constructor_duration_value",
+    "stacking_limit": "fixed_one",
+    "stacking_ownership_type": "for_all_players",
+    "gui": {
+        "hud_icon": "trader_extra_constructor_hud_icon",
+        "name": "trader_extra_constructor_name",
+        "is_visible_within_unit_tooltip": true
+    }
+}

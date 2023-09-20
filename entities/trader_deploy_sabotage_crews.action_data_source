@@ -95,6 +95,28 @@
                     2000
                 ]
             }
+        },
+        {
+            "action_value_id": "deploy_sabotage_crews_sabotage_particle_duration",
+            "action_value": {
+                "values": [
+                    1
+                ]
+            }
         }
+    ],
+    "effect_alias_bindings": [
+        [
+            "sabotage_effect",
+            {
+                "particle_effect": "trader_rebel_titan_explosive_shot_hit",
+                "sounds": [
+                "WEAPONIMPACT_PHYSICALHEAVY_HITHULL",
+                    "WEAPONIMPACT_PHYSICALHEAVY_HITHULL_01",
+                    "WEAPONIMPACT_PHYSICALHEAVY_HITHULL_02",
+                    "WEAPONIMPACT_PHYSICALHEAVY_HITHULL_03"
+                ]
+            }
+        ]
     ]
 }
