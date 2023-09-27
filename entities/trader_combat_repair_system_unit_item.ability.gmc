@@ -20,7 +20,8 @@
                 "label_text": "tooltip.ability.hull_restore_rate_allied",
                 "value_id": "combat_repair_system_remote_hull_restore_rate_value",
                 "value_color": "positive",
-                "value_suffix": "per_second"
+                "value_suffix": "per_second",
+                "rendering_type": "single_value"
             }
         ],
         "range": "apply_buff_radius"

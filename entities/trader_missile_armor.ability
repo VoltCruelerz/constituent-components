@@ -15,7 +15,8 @@
                 "label_text": "trader_missile_armor_damage_reduction_label",
                 "value_id": "damage_prevented_value",
                 "value_float_format": "percentage",
-                "value_color": "positive"
+                "value_color": "positive",
+                "rendering_type": "single_value"
             },
             {
                 "rendering_type": "buff_unit_modifier",

@@ -13,12 +13,14 @@
             {
                 "label_text": "trader_heavy_gauss_slugs_unit_item_on_target_name",
                 "value_id": "armor_reduction",
-                "value_float_format": "percentage_with_sign"
+                "value_float_format": "percentage_with_sign",
+                "rendering_type": "single_value"
             },
             {
                 "label_text": "tooltip.ability.duration",
                 "value_id": "duration_value",
-                "value_suffix": "seconds"
+                "value_suffix": "seconds",
+                "rendering_type": "single_value"
             }
         ]
     }

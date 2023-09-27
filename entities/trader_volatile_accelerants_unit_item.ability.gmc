@@ -10,13 +10,15 @@
                 "label_text": "unit_modifier.max_linear_speed.passive",
                 "value_id": "volatile_accelerants_passive_linear_speed_bonus_value",
                 "value_float_format": "percentage",
-                "value_color": "positive"
+                "value_color": "positive",
+                "rendering_type": "single_value"
             },
             {
                 "label_text": "unit_modifier.max_angular_speed.passive",
                 "value_id": "volatile_accelerants_passive_angular_speed_bonus_value",
                 "value_float_format": "percentage",
-                "value_color": "positive"
+                "value_color": "positive",
+                "rendering_type": "single_value"
             }
         ]
     }

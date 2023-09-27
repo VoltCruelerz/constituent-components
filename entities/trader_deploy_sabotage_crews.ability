@@ -31,22 +31,26 @@
                 "label_text": "planet_modifier.factory_unit_build_time",
                 "value_id": "deploy_sabotage_crews_ship_build_time_bonus_value",
                 "value_float_format": "percentage_with_sign",
-                "value_color": "negative"
+                "value_color": "negative",
+                "rendering_type": "single_value"
             },
             {
                 "label_text": "planet_modifier.structure_build_time",
                 "value_id": "deploy_sabotage_crews_structure_build_time_bonus_value",
                 "value_float_format": "percentage_with_sign",
-                "value_color": "negative"
+                "value_color": "negative",
+                "rendering_type": "single_value"
             },
             {
                 "label_text": "tooltip.ability.duration",
                 "value_id": "deploy_sabotage_crews_duration_value",
-                "value_suffix": "seconds"
+                "value_suffix": "seconds",
+                "rendering_type": "single_value"
             },
             {
                 "label_text": "tooltip.ability.factory_damage",
-                "value_id": "deploy_sabotage_crews_sabotage_damage_value"
+                "value_id": "deploy_sabotage_crews_sabotage_damage_value",
+                "rendering_type": "single_value"
             }
         ]
     }

@@ -5,7 +5,12 @@
             "interceptor",
             "bomber"
         ],
-        "strikecraft_formation": "capital_ship_strikecraft",
+        "launch_destination_formation": "capital_ship_strikecraft",
+        "launch_destination_formation_offset":
+        {
+            "rank": 3,
+            "group": 2
+        },
         "hangar_points": [
             {
                 "position": [

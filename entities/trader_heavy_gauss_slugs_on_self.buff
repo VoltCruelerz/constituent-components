@@ -2,7 +2,7 @@
     "version": 0,
     "stacking_limit": "fixed_one",
     "stacking_ownership_type": "for_all_players",
-    "stacking_limit_met_behavior": "keep_existing_buff",
+    "stacking_limit_met_behavior": "preserve_existing_buff",
     "trigger_event_actions": [
         {
             "trigger_event_type": "on_unit_damaged_by_current_spawner",

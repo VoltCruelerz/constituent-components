@@ -1,7 +1,7 @@
 {
     "version": 0,
     "stacking_limit": "fixed_one",
-    "stacking_limit_met_behavior": "keep_existing_buff",
+    "stacking_limit_met_behavior": "preserve_existing_buff",
     "stacking_ownership_type": "for_all_players",
     "trigger_event_actions": [
         {

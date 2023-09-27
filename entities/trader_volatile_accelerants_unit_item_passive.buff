@@ -2,7 +2,7 @@
     "version": 0,
     "stacking_limit": "fixed_one",
     "stacking_ownership_type": "for_all_players",
-    "stacking_limit_met_behavior": "keep_existing_buff",
+    "stacking_limit_met_behavior": "preserve_existing_buff",
     "unit_modifiers": [
         {
             "modifier_type": "max_linear_speed",

@@ -49,7 +49,8 @@
                     {
                         "label_text": "tooltip.ability.duration",
                         "value_id": "trader_extra_constructor_duration_value",
-                        "value_suffix": "seconds"
+                        "value_suffix": "seconds",
+                        "rendering_type": "single_value"
                     }
                 ]
             }
