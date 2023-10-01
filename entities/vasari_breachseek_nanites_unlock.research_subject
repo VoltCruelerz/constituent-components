@@ -1,0 +1,17 @@
+{
+    "version": 0,
+    "domain": "military",
+    "tier": 0,
+    "field": "military_assault",
+    "field_coord": [1, 8],
+    "research_time": 85.0,
+    "price":
+    {
+        "metal": 200.0,
+        "crystal": 240.0,
+        "credits": 0.0
+    },
+    "name": "vasari_breachseek_nanites_unlock_name",
+    "description": "vasari_breachseek_nanites_unlock_description",
+    "hud_icon": "vasari_breachseek_nanites_hud_icon"
+}

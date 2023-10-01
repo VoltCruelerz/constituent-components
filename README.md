@@ -1,54 +1,81 @@
 # Constituent Components
 
-_This mod requires Greed 1.8.1 or higher._
+_This mod requires Greed 2.0.0 or higher._
 
 Most of the components in Sins II are cool, but some leave something to be desired.
 
-## Changes
+## Updated Components
 
-### Existing Components
+### TEC Updates
 
 - **Antimatter Engine**
-    - autocast: now exists (triggers at <40% antimatter)
+    - autocast: now exists (triggers at `< 40%` antimatter)
 - **Combat Repair System**
-    - autocast: now exists (triggers at 300hp missing)
-    - healing: affects the fleet for 1/3 rate (5hps)
+    - autocast: now exists (triggers at `300` HP missing)
+    - healing: affects the fleet for 1/3 rate (`5 HPS`)
 - **Derelict Specialists**
     - changed to Tier 1
-    - added unique icon
+    - added unique icon<br>![hud icon](textures/trader_derelict_specialist_unit_item_hud_icon.png)
 - **Exotics Salvage Policy**
-    - installation: 120 => 30 seconds
+    - installation: `120` => `30` seconds
 - **Heavy Gauss Slugs**
     - armor penetration: removed
-    - armor shred: 15% for 30s, no stacking
+    - armor shred: `15%` for `30s`, no stacking
 - **Reserve Hangar**: removed restriction on already having a squadron
 - **Salvage Kit**
-    - scaling: now scales with combat repair droid research for 10/20/30 HPS
+    - scaling: now scales with combat repair droid research for `10/20/30 HPS`
     - targeting: can now apply to repair allied units as well
-- **Volatile Accelerants**: passively grants +25% linear and angular speed
-- **Missile Armor**: replaced with specialized variants. All types slow by 10% and grant +50 armor.
-    - **Explosive Reactive Armor**: -40% missile and plasma damage
-    - **Hylon Fiber Armor**: -40% phase gun and autocannon damage
-    - **Ablative Ice Armor**: -20% beam and laser damage
+- **Volatile Accelerants**: passively grants `+25%` linear and angular speed
+- **Missile Armor**: replaced with specialized variants. All types slow by `10%` and grant `+50` armor.
+    - **Explosive Reactive Armor**: `-40%` missile and plasma damage<br>![hud icon](textures/trader_armor_specialization_missile_unit_item_hud_icon.png)
+    - **Hylon Fiber Armor**: `-40%` phase gun and autocannon damage<br>![hud icon](textures/trader_armor_specialization_bullet_unit_item_hud_icon.png)
+    - **Ablative Ice Armor**: `-20%` beam and laser damage<br>![hud icon](textures/trader_armor_specialization_energy_unit_item_hud_icon.png)
 
-### New Components
+### Vasari Updates
+
+For some reason, the Beam and Wave Modulators are both terrible, barely making a dent in a ship's overall DPS. For a component that is purely selfish, it's odd that they were so poorly-performing.
+
+- **Beam Moduator**: improved penetration performance
+    - Passive: `8/12%` => `16/25%`
+    - Active Penetration: (`40/60%` => `75/150%`) = (`134/153 AP` => `168/240 AP`)
+- **Wave Modulator**: improved shield cutting performance
+    - Damage: `5/8%` => `20/30%`
+    - Cooldown: `10/15%` => `15/20%`
+    - DPS: `16/24%` => `38/56%`
+- **Bomber Armor**: Fixed `1.16.10`'s component-not-selectable bug
+
+## Added Components
+
+### TEC Additions
 
 - **Unbreachable Hull**
     - _Unbreachable Hull_ research is a prerequisite
-    - +2000 hull, +0.4 HPS, +75 armor
-- **Sabotage Crews (Rebels)**
-    - A lategame offensive unit for TEC Rebels, when used, it deals damage to enemy factories in the gravity well and slows production to a crawl.
-    - 2000 damage, -45% build speed
-- **Titan's Fervor (Loyalist)**
+    - `+2000` hull, `+0.4` HPS, `+75` armor
+- **Sabotage Crews (Rebels)**<br>![hud icon](textures/trader_deploy_sabotage_crews_hud_icon.png)
+    - A lategame offensive unit for TEC Rebels. When used, it deals damage to enemy factories in the gravity well and slows production.
+    - `2000` damage, `-45%` build speed
+- **Titan's Fervor (Loyalist)**<br>![hud icon](textures/trader_titans_fervor_hud_icon.png)
     - A lategame Ankylon component that grants any planet it orbits 50 garrison supply for as long as it remains there.
-- **Deploy Constructor**
+- **Deploy Constructor**<br>![hud icon](textures/trader_extra_constructor_hud_icon.png)
     - Game-start component that deploys a limited-lifetime constructor fully under manual control. The planet will not auto-schedule its jobs.
+
+### Vasari Additions
+
+- **Parasitic Payloads**<br>![hud icon](textures/vasari_breachseek_nanites_hud_icon.png)
+    - Weapons deal `15%` bonus damage to targets missing hull points.
+    - Higher research tiers upgrade the item to a small AoE (radius of `0/1000/1500` with target cap of `1/2/3`).
+- **Subspace Sensor Array**<br>![hud icon](textures/vasari_subspace_array_hud_icon.png)
+    - Increases weapon range by `20/30%`.
+    - Increases bombing range by `100/200%`.
+    - Ship counts as a mobile phase jump detector, with a range of `0/1/2` jumps.
 
 ### Other Changes
 
-- **Archaeology Center Prototype**: clarified text. Did _you_ know it gives you a cache of resources every 8 min? I sure didn't.
+- **Archaeology Center Prototype**: clarified what this does in the UI
 
 ## Future Work
+
+The below options are not firm plans, merely considerations.
 
 ### TEC
 
@@ -66,37 +93,23 @@ Most of the components in Sins II are cool, but some leave something to be desir
 
 ### Vasari
 
-- phase missiles: thematics?
-- beams: anti-armor
-- pulse beams: extreme anti-armor at the cost of damage
-- waves: high damage, high RoF, shield popping
-- pulse guns: basic, quick tracking
-
-- [Kortul/Vulkoras] **Electroseeking Nanites**: Bonus damage on-hit to enemy that lacks full hull.
 - [Antorak] **Phase Bomb**: Single-use that phases out a massive area briefly, dealing mild damage to _everything_, including allies, strikecraft, and missiles.
 - [Jarrasul] **Speed Boost**: Boost early colonization?
-- [Vulkoras] **Expendable Engines**: missile top speed +25%
+- [Vulkoras] **Staged Engines**: missile top speed +25%
 - [Vulkoras] **Subspace Warheads**: missiles deal AoE damage
 - [Skirantra] **Atmospheric Shielding**: own strikecraft can bomb planets
-- [Skirantra] **Subspace Engines**: own strikecraft go _much_ faster
-- **Ionized Waves**: Wave cannons deal bonus damage to shields
-- **Defense Matrix**: Point defense guns of nearby allies improve _drastically_
-    - probably with RoF or gimbal rate?
-- **Debris Harvester**: Harvest debris from enemies?
-- **Phase Sensor**: unit that detects incoming phase jumps
-    - early-game
+- [Skirantra] **Central Airwing Command**: boosts flight speed of all strikecraft in gravity well
+    - see Volatile Accelerants
+- **Subspace Tracker**: Applies a tracker to the target ship, allowing it to be tracked, wherever it goes.
+    - See `provides_detection`.
 - **Phase Jump Inhibitor**: titan upgrade that locks down the well.
     - late-game
 - **Excavation Team**: greatly reduces the time and cost of excavation, increases rate of success
     - early-game
     - see `"excavation_track_build_price"` and `"excavation_track_build_time"`
-- **Research Laboratory**: The ship counts as lab
-    - see `"civilian_research_points"`, `"military_research_points"`, and `"research_time"`
 - **Networked Jump Computer**: greatly reduces the jump time of nearby allies, as well as jump speed
     - see `"hyperspace_charge_time"` and `"hyperspace_speed"`
     - would this be better for Vasari?
-- **Networked Airwing Command**: boosts flight speed of all strikecraft in gravity well
-    - see Volatile Accelerants
 - **Nanomedicine Field Hospital**: _drastic_ reduction in bombing damage to _anyone_, increases allied loyalty, and generates favor _quickly_.
     - Should allow planet to survive Novaliths.
 

@@ -1,0 +1,11 @@
+{
+    "gui": {
+        "tooltip_lines": [
+        {
+            "label_text": "tooltip.ability.execution_interval",
+            "value_id": "archaeology_center_execution_interval_value",
+            "value_suffix": "seconds",
+            "rendering_type": "single_value"
+        }]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "version": 0,
+    "stacking_limit": "fixed_one",
+    "stacking_ownership_type": "for_all_players",
+    "stacking_limit_met_behavior": "preserve_existing_buff",
+    "trigger_event_actions": [
+        {
+            "trigger_event_type": "on_unit_damaged_by_current_spawner",
+            "action_group": {
+                "constraint": {
+                    "constraint_type": "damage_has_damage_source",
+                    "damage_source": "weapon"
+                },
+                "actions": [
+                    {
+                        "action_type": "use_unit_operators_on_units_in_radius_of_unit",
+                        "radius_origin_unit": {
+                            "unit_type": "trigger_event_destination"
+                        },
+                        "include_radius_origin_unit": true,
+                        "radius_value": "radius_value",
+                        "max_target_count_value": "max_target_count",
+                        "operators_constraint": {
+                            "constraint_type": "unit_passes_target_filter",
+                            "unit": {
+                                "unit_type": "operand_destination"
+                            },
+                            "target_filter_id": "splash_damage_target_filter"
+                        },
+                        "operators": [
+                            {
+                                "operator_type": "apply_damage",
+                                "damage_source": "ability",
+                                "damage_affect_type": "hull_only",
+                                "damage_value": "splash_damage_value",
+                                "hull_armor_penetration_value": "aoe_penetration_value"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

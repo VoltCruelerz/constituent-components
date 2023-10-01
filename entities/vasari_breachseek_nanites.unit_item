@@ -1,0 +1,37 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_breachseek_nanites_hud_icon",
+    "name": "vasari_breachseek_nanites_name",
+    "description": "vasari_breachseek_nanites_description",
+    "max_count_on_unit": 1,
+    "build_time": 120.0,
+    "price":
+    {
+        "metal": 275.0,
+        "crystal": 375.0
+    },
+    "exotic_price": [
+    {
+        "exotic_type": "offense",
+        "count": 1
+    }],
+    "required_unit_tags": [
+        "capital_ship"
+    ],
+    "build_prerequisites": [
+        ["vasari_breachseek_nanites_unlock"]
+    ],
+    "item_level_count": 3,
+    "item_level_source": "research_prerequisites_per_level",
+    "item_level_prerequisites": [
+        [
+            ["vasari_breachseek_nanites_upgrade_0"]
+        ],
+        [
+            ["vasari_breachseek_nanites_upgrade_1"]
+        ]
+    ],
+    "build_group_id": "offense",
+    "ability": "vasari_breachseek_nanites"
+}

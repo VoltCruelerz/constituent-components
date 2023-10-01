@@ -1,6 +1,6 @@
 {
     "version": 0,
-    "make_owner_dead_on_buff_made_dead": true,
+    "make_current_spawner_dead_on_buff_made_dead": true,
     "active_duration": "trader_extra_constructor_duration_value",
     "stacking_limit": "fixed_one",
     "stacking_ownership_type": "for_all_players",

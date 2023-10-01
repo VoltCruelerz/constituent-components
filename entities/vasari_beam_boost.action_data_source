@@ -1,0 +1,55 @@
+{
+    "version": 0,
+    "level_count": 2,
+    "action_values": [
+        {
+            "action_value_id": "antimatter_cost",
+            "action_value": {
+                "values": [
+                    100,
+                    100
+                ]
+            }
+        },
+        {
+            "action_value_id": "buff_duration",
+            "action_value": {
+                "values": [
+                    30,
+                    45
+                ]
+            }
+        },
+        {
+            "action_value_id": "cooldown_time",
+            "action_value": {
+                "values": [
+                    120,
+                    120
+                ]
+            }
+        },
+        {
+            "action_value_id": "weapon_armor_penetration_bonus",
+            "action_value": {
+                "values": [
+                    0.75,
+                    1.50
+                ]
+            }
+        }
+    ],
+    "buff_weapon_modifiers": [
+        {
+            "buff_weapon_modifier_id": "weapon_armor_penetration_bonus",
+            "buff_weapon_modifier": {
+                "modifier_type": "hull_armor_penetration",
+                "value_behavior": "scalar",
+                "value_id": "weapon_armor_penetration_bonus",
+                "tags": [
+                    "beam"
+                ]
+            }
+        }
+    ]
+}

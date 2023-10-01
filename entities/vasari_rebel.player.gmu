@@ -1,0 +1,19 @@
+{
+    "ship_components": [
+        "vasari_breachseek_nanites",
+        "vasari_subspace_array"
+    ],
+    "research": {
+        "research_subjects": [
+            "vasari_breachseek_nanites_unlock",
+            "vasari_breachseek_nanites_upgrade_0",
+            "vasari_breachseek_nanites_upgrade_1",
+            "vasari_subspace_array_unlock",
+            "vasari_subspace_array_upgrade_0",
+            "vasari_subspace_array_upgrade_1"
+        ],
+        "faction_research_subjects": [
+            "vasari_breachseek_nanites_upgrade_1"
+        ]
+    }
+}

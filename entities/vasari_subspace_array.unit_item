@@ -1,0 +1,61 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_subspace_array_hud_icon",
+    "name": "vasari_subspace_array_name",
+    "description": "vasari_subspace_array_description",
+    "build_time": 120,
+    "price": {
+        "credits": 600,
+        "metal": 125,
+        "crystal": 200
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 1
+        },
+        {
+            "exotic_type": "utility",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "capital_ship",
+        "titan"
+    ],
+    "build_prerequisites": [
+        [
+            "vasari_subspace_array_unlock"
+        ]
+    ],
+    "item_level_count": 3,
+    "item_level_source": "research_prerequisites_per_level",
+    "item_level_prerequisites": [
+        [
+            ["vasari_subspace_array_upgrade_0"]
+        ],
+        [
+            ["vasari_subspace_array_upgrade_1"]
+        ]
+    ],
+    "build_group_id": "offense",
+    "weapon_modifiers": [
+        {
+            "modifier_type": "range",
+            "value_behavior": "scalar",
+            "values": [
+                0.2,
+                0.3,
+                0.4
+            ]
+        },
+        {
+            "weapon_type": "planet_bombing",
+            "modifier_type": "range",
+            "value_behavior": "scalar",
+            "values": [1.3, 1.7, 2.1]
+        }
+    ],
+    "ability": "vasari_subspace_array_phase_lane_detection"
+}

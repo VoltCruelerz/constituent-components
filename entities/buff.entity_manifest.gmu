@@ -13,6 +13,10 @@
         "trader_deploy_sabotage_crews_on_starbase",
         "trader_titans_fervor_on_self",
         "trader_titans_fervor_on_planet",
-        "trader_extra_constructor_on_constructor"
+        "trader_extra_constructor_on_constructor",
+        "vasari_breachseek_nanites",
+        "vasari_subspace_array_phase_lane_detection_on_self",
+        "vasari_subspace_array_phase_lane_detection_on_gravity_well",
+        "vasari_subspace_array_phase_lane_detection_on_phase_lane"
     ]
 }

@@ -1,0 +1,26 @@
+{
+    "weapon_modifiers": [
+        {
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "values": [
+                0.20,
+                0.30
+            ],
+            "tags": [
+                "wave"
+            ]
+        },
+        {
+            "modifier_type": "cooldown_duration",
+            "value_behavior": "scalar",
+            "values": [
+                -0.15,
+                -0.20
+            ],
+            "tags": [
+                "wave"
+            ]
+        }
+    ]
+}

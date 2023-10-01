@@ -1,0 +1,61 @@
+{
+    "version": 0,
+    "level_count": 3,
+    "target_filters": [
+        {
+            "target_filter_id": "splash_damage_target_filter",
+            "target_filter": {
+                "unit_types": [
+                    "capital_ship",
+                    "corvette",
+                    "frigate",
+                    "starbase",
+                    "structure",
+                    "titan"
+                ],
+                "ownerships": [
+                    "enemy"
+                ],
+                "constraints": [
+                    {
+                        "constraint_type": "has_missing_hull"
+                    }
+                ]
+            }
+        }
+    ],
+    "action_values": [
+        {
+            "action_value_id": "radius_value",
+            "action_value": {
+                "values": [
+                    0, 1000, 1500
+                ]
+            }
+        },
+        {
+            "action_value_id": "aoe_penetration_value",
+            "action_value": {
+                "values": [
+                    100, 150, 200
+                ]
+            }
+        },
+        {
+            "action_value_id": "splash_damage_value",
+            "action_value": {
+                "transform_type": "per_damage_dealt",
+                "values": [
+                    0.15, 0.15, 0.15
+                ]
+            }
+        },
+        {
+            "action_value_id": "max_target_count",
+            "action_value":
+            {
+                "values": [1, 2, 3]
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "version": 0,
+    "action_data_source": "vasari_subspace_array_phase_lane_detection",
+    "level_source": "unit_item",
+    "passive_actions":
+    {
+        "persistant_buff": "vasari_subspace_array_phase_lane_detection_on_self"
+    },
+    "gui":
+    {
+        "hud_icon": "vasari_subspace_array_hud_icon",
+        "tooltip_icon": "vasari_subspace_array_tooltip_picture",
+        "name": "vasari_subspace_array_name",
+        "description": "vasari_subspace_array_description"
+    }
+}

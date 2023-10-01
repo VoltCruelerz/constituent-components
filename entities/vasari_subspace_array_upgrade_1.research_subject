@@ -1,0 +1,21 @@
+{
+    "version": 0,
+    "domain": "military",
+    "tier": 2,
+    "field": "military_assault",
+    "field_coord": [4, 7],
+    "research_time": 140.0,
+    "price":
+    {
+        "metal": 450.0,
+        "crystal": 560.0,
+        "credits": 0.0
+    },
+    "prerequisites": [
+        ["vasari_subspace_array_upgrade_0"]
+    ],
+    "name": "vasari_subspace_array_upgrade_1_name",
+    "description": "vasari_subspace_array_upgrade_1_description",
+    "hud_icon": "vasari_subspace_array_upgrade_1_hud_icon",
+    "tooltip_picture": "vasari_subspace_array_upgrade_1_tooltip_picture"
+}

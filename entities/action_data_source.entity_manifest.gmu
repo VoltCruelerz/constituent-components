@@ -5,6 +5,8 @@
         "trader_energy_armor",
         "trader_deploy_sabotage_crews",
         "trader_titans_fervor",
-        "trader_extra_constructor"
+        "trader_extra_constructor",
+        "vasari_breachseek_nanites",
+        "vasari_subspace_array_phase_lane_detection"
     ]
 }

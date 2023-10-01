@@ -1,6 +1,12 @@
 {
     "ids": [
         "trader_unlock_deploy_sabotage_crews",
-        "trader_unlock_titans_fervor"
+        "trader_unlock_titans_fervor",
+        "vasari_breachseek_nanites_unlock",
+        "vasari_breachseek_nanites_upgrade_0",
+        "vasari_breachseek_nanites_upgrade_1",
+        "vasari_subspace_array_unlock",
+        "vasari_subspace_array_upgrade_0",
+        "vasari_subspace_array_upgrade_1"
     ]
 }

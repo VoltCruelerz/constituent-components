@@ -1,0 +1,15 @@
+{
+    "weapon_modifiers": [
+        {
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "values": [
+                0.16,
+                0.25
+            ],
+            "tags": [
+                "beam"
+            ]
+        }
+    ]
+}
