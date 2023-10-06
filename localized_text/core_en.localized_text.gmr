@@ -50,5 +50,7 @@
     "vasari_subspace_array_upgrade_0_name": "Subspace Probe Deployment",
     "vasari_subspace_array_upgrade_0_description": "Upon entry to a gravity well, expendable probes are launched from the ship to improve target resolution. Phase jumping enemies can be detected a gravity well away.",
     "vasari_subspace_array_upgrade_1_name": "Subspace Denoising",
-    "vasari_subspace_array_upgrade_1_description": "Improves noise removal when tracking distant foes. Phase jumping enemies can now be detected two gravity wells away."
+    "vasari_subspace_array_upgrade_1_description": "Improves noise removal when tracking distant foes. Phase jumping enemies can now be detected two gravity wells away.",
+    "tooltip.ability.antimatter_removal_rate": "Antimatter Removal Rate:",
+    "tooltip.ability.bonus_armor": "Bonus Armor:"
 }

@@ -1,0 +1,29 @@
+{
+    "gui":
+    {
+        "tooltip_lines": [
+        {
+            "label_text": "tooltip.ability.damage",
+            "value_id": "nano_swarm_damage_value",
+            "rendering_type": "single_value"
+        },
+        {
+            "label_text": "tooltip.ability.damage_rate",
+            "value_id": "nano_swarm_damage_rate_value",
+            "value_suffix": "per_second",
+            "rendering_type": "single_value"
+        },
+        {
+            "label_text": "tooltip.ability.antimatter_removal_rate",
+            "value_id": "nano_swarm_antimatter_removal_rate_value",
+            "value_suffix": "per_second",
+            "rendering_type": "single_value"
+        },
+        {
+            "label_text": "tooltip.ability.duration",
+            "value_id": "nano_swarm_execution_count_value",
+            "value_suffix": "seconds",
+            "rendering_type": "single_value"
+        }]
+    }
+}

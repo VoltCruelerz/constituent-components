@@ -1,0 +1,9 @@
+{
+    "unit_modifiers": [
+        {
+            "modifier_type": "hull_armor",
+            "value_behavior": "additive",
+            "value_id": "nanite_armor_armor_value"
+        }
+    ]
+}

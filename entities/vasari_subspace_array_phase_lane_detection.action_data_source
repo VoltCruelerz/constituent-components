@@ -2,11 +2,15 @@
     "version": 0,
     "level_count": 3,
     "action_values": [
-    {
-        "action_value_id": "phase_lane_detection_phase_lane_distance",
-        "action_value":
         {
-            "values": [1.0, 2.0, 3.0]
+            "action_value_id": "phase_lane_detection_phase_lane_distance",
+            "action_value": {
+                "values": [
+                    1,
+                    2,
+                    3
+                ]
+            }
         }
-    }]
+    ]
 }

@@ -1,0 +1,12 @@
+{
+    "action_values": [
+        {
+            "action_value_id": "nano_swarm_antimatter_removal_rate_value",
+            "action_value": {
+                "values": [
+                    4
+                ]
+            }
+        }
+    ]
+}

@@ -4,8 +4,8 @@
             "modifier_type": "damage",
             "value_behavior": "scalar",
             "values": [
-                0.20,
-                0.30
+                0.75,
+                1.50
             ],
             "tags": [
                 "wave"

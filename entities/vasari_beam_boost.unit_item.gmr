@@ -1,11 +1,11 @@
 {
     "weapon_modifiers": [
         {
-            "modifier_type": "damage",
+            "modifier_type": "cooldown_duration",
             "value_behavior": "scalar",
             "values": [
-                0.16,
-                0.25
+                -0.40,
+                -0.80
             ],
             "tags": [
                 "beam"

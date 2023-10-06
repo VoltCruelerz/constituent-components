@@ -1,0 +1,11 @@
+{
+    "gui": {
+        "tooltip_lines": [
+            {
+                "label_text": "tooltip.ability.bonus_armor",
+                "value_id": "nanite_armor_armor_value",
+                "rendering_type": "single_value"
+            }
+        ]
+    }
+}

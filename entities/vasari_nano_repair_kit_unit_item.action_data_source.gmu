@@ -1,0 +1,12 @@
+{
+    "action_values": [
+        {
+            "action_value_id": "nanite_armor_armor_value",
+            "action_value": {
+                "values": [
+                    30
+                ]
+            }
+        }
+    ]
+}

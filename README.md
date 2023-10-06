@@ -35,8 +35,11 @@ Most of the components in Sins II are cool, but some leave something to be desir
 
 For some reason, the Beam and Wave Modulators are both terrible, barely making a dent in a ship's overall DPS. For a component that is purely selfish, it's odd that they were so poorly-performing.
 
-- **Beam Moduator**: improved penetration performance
-    - Passive: `8/12%` => `16/25%`
+- **Nano Attack Swarm**: also deals `4 AMPS` (80 AM total)
+- **Nano Repair Swarm**: while active, grants `30` armor.
+- **Beam Moduator**: improved use as an anti-armor weapon
+    - Passive Damage: removed
+    - Passive Cooldown: `-40%/-80%`
     - Active Penetration: (`40/60%` => `75/150%`) = (`134/153 AP` => `168/240 AP`)
 - **Wave Modulator**: improved shield cutting performance
     - Damage: `5/8%` => `20/30%`
@@ -65,8 +68,8 @@ For some reason, the Beam and Wave Modulators are both terrible, barely making a
     - Weapons deal `15%` bonus damage to targets missing hull points.
     - Higher research tiers upgrade the item to a small AoE (radius of `0/1000/1500` with target cap of `1/2/3`).
 - **Subspace Sensor Array**<br>![hud icon](textures/vasari_subspace_array_hud_icon.png)
-    - Increases weapon range by `20/30%`.
-    - Increases bombing range by `100/200%`.
+    - Increases weapon range by `10/20/30%`.
+    - Increases bombing range by `0/150/200%`.
     - Ship counts as a mobile phase jump detector, with a range of `0/1/2` jumps.
 
 ### Other Changes
@@ -112,6 +115,9 @@ The below options are not firm plans, merely considerations.
     - would this be better for Vasari?
 - **Nanomedicine Field Hospital**: _drastic_ reduction in bombing damage to _anyone_, increases allied loyalty, and generates favor _quickly_.
     - Should allow planet to survive Novaliths.
+- **Mobile Exotic Factory**: improve it _somehow_...
+    - ?give small RNG buffs to strikecraft?
+    - ?add slow resource generation too, since you're never that low on slots?
 
 #### Rebels
 

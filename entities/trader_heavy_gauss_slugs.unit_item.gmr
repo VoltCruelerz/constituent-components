@@ -1,4 +1,10 @@
 {
+    // TODO - restore this after it's fixed.
+    "owner_constraint": null,
+    // "owner_constraint": {
+    //     "constraint_type": "has_weapon",
+    //     "weapon_tag": "gauss"
+    // },
     "weapon_modifiers": [
         {
             "modifier_type": "damage",
