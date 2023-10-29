@@ -1,4 +1,7 @@
 {
+    "consumable_stack_count": [
+      3, 3, 3
+    ],
     "item_level_count": 3,
     "item_level_source": "research_prerequisites_per_level",
     "item_level_prerequisites": [

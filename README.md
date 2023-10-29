@@ -8,8 +8,6 @@ Most of the components in Sins II are cool, but some leave something to be desir
 
 ### TEC Updates
 
-- **Antimatter Engine**
-    - autocast: now exists (triggers at `< 40%` antimatter)
 - **Combat Repair System**
     - autocast: now exists (triggers at `300` HP missing)
     - healing: affects the fleet for 1/3 rate (`5 HPS`)
