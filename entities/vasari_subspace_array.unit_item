@@ -35,6 +35,7 @@
             ["vasari_subspace_array_upgrade_1"]
         ]
     ],
+    "max_count_on_unit": 1,
     "build_group_id": "offense",
     "weapon_modifiers": [
         {
